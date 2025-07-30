@@ -10,12 +10,12 @@ from email.mime.multipart import MIMEMultipart
 import time
 
 # ==== CONFIG ====
-CURRENT_DATE = datetime.strptime("2025-09-15", "%Y-%m-%d")  # Your current appointment
+CURRENT_DATE = datetime.strptime("Your_current_appointment_date_here", "%Y-%m-%d")  # Your current appointment
 REFRESH_INTERVAL = 20  # seconds between scans
 
-EMAIL_SENDER   = "junhong050707@gmail.com"
-EMAIL_PASSWORD = "xwwg hrdp gcht frgl"      # Use app password
-EMAIL_RECEIVER = "junhong050707@gmail.com"
+EMAIL_SENDER   = ""
+EMAIL_PASSWORD = ""      # Use app password
+EMAIL_RECEIVER = ""
 # ===============
 
 def send_email_alert(city, date_str):
